@@ -13,6 +13,6 @@ impl Message {
 
 fn main() {
     let m = Message::Write(String::from("hello"));
-    println!("{}", m.0);
+    // println!("{}", m.0);
     // m.call();
 }
